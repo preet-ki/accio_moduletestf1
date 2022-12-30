@@ -181,13 +181,25 @@ span{
     margin: 50px;
     
     }
-    .one:hover,.two:hover,.three:hover{
+    .three:hover{
      background-color:black; 
      color:white;
      animation-delay: 0.3s;
+     
  
  
  
+    }
+    .one:hover{
+        background-color:black; 
+        color:white;
+        animation-delay: 0.3s;
+        
+    }
+    .two:hover{
+        background-color:black; 
+        color:white;
+        animation-delay: 0.3s;
     }
  
  .one,.two,.three{
@@ -226,24 +238,27 @@ footer{
 
 
 }
-.form{
-    width:800px;
-    position: relative;
-    left:50px;
-    top:2px;
-    padding:12px;
-    margin-top:7px;
-    margin-left:50px;
-    
 
-}
 #button{
     position: relative;
     top:4px;
-    left: 100px;
+    left: 65px;
     background-color: white;
     color:black;
     width:100px;
     padding:4px;
    
+}
+@media (min-width:481px) and (max-width: 768px){
+    main{
+        font-size: 40px;
+        text-align: left;
+    }
+    footer{
+        position: relative;
+        left:0px;
+        font-size:20px;
+        
+        width:40px;
+    }
 }
