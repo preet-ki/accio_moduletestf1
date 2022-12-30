@@ -1,0 +1,249 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+nav{
+    height:80px;
+    background-color: black;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    position: fixed;
+    top:0;
+    width: 100%;
+    
+    
+}
+nav .logo{
+    font-size: 35px;
+    color: white;
+    font-weight:400 ;
+    margin-left: 25px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    
+}
+nav ul li{
+    margin: 0px 12px;
+}
+nav ul li a{
+    color: white;
+text-decoration: none;
+font-size: 18px;
+font-weight:500 ;
+}
+nav ul li a:hover{
+    color: red;
+}
+@media (min-width:320px) and (max-width: 480px){
+    nav .logo{
+        font-size: 10px;
+    }
+    nav ul{
+        position: fixed;
+        top:70px;
+        left:0px;
+        height: 100vh;
+        width:100%;
+        display: block;
+        text-align: left;
+        
+}
+nav ul li{
+    margin:20px 0;
+}
+nav ul li a{
+    font-size: 10px;
+    color: black;
+    
+}
+}
+@media (min-width:481px) and (max-width: 768px){
+    nav ul{
+        
+        position: fixed;
+        top:50px;
+        left:0;
+        height: 100vh;
+        width:auto;
+        display: block;
+        text-align: center;
+        
+
+}
+nav ul li{
+    margin:33px 0;
+}
+nav ul li a{
+    font-size: 20px;
+    color: black;
+}
+}
+@media (min-width:769px) and (max-width: 1024px){
+    nav ul{
+      position:relative;
+        top:170px;
+       float: right;
+       display: block;
+        
+}
+nav ul li{
+    margin:30px 0;
+}
+nav ul li a{
+    font-size: 35px;
+    color:black;
+}
+}
+
+.first{
+    font-size: 80px;
+    font-weight: 200;
+    width:50px;
+    position: relative;
+    top:100px;
+    z-index: -1;
+    left:30px; 
+    animation: textclip 3s linear infinite;
+}
+    @keyframes textclip {
+        0% {
+          background-position: 200% center;
+              color: black;
+        }
+        50%{
+            color:blueviolet
+        }
+      100%{
+        color: blue;
+      }
+
+    
+
+}
+span{
+    position: relative;
+    left:500px;
+    top:50px;
+}
+
+#image{
+   position: relative;
+    top:50px;
+    left:800px;
+    z-index: -1;
+}
+.second{
+    position: relative;
+    top:200px;
+    font-size: 60px;
+    float: right;
+    right: 310px;
+    
+
+}
+.third{
+    position: relative;
+    top:200px;
+    height:450px;
+    width: 500px;
+    left:50px;
+    z-index: -1;
+}
+.content{
+    width:50%;
+    float: right;
+    position: relative;
+    top:-150px;
+    z-index: -1;
+}
+#group{
+    position: relative;
+    top:250px;
+    z-index: -1;
+
+}
+#head{
+    font-size: 50px;
+    font-weight: 600;
+    position: relative;
+    left:50px;
+    z-index: -1;
+}
+.service{
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns:320px 320px 320px ;
+    grid-column-gap:4rem ;
+    margin: 50px;
+    
+    }
+    .one:hover,.two:hover,.three:hover{
+     background-color:black; 
+     color:white;
+     animation-delay: 0.3s;
+ 
+ 
+ 
+    }
+ 
+ .one,.two,.three{
+     border:2px solid black;
+     
+     overflow-x: scroll;
+   
+    
+ }
+ .one p,.two p,.three p{
+     padding: 25px;
+ }
+ .one header,.two header,.three header{
+     font-size: 25px;
+     
+ }
+
+
+footer{
+    position: relative;
+    top:330px;
+    
+    background-color: black;
+    
+    
+}
+#foots{
+  font-size:40px;
+  font-weight: 300;
+  position: relative;
+  left:400px;
+  color:white
+
+  
+
+
+
+}
+.form{
+    width:800px;
+    position: relative;
+    left:50px;
+    top:2px;
+    padding:12px;
+    margin-top:7px;
+    margin-left:50px;
+    
+
+}
+#button{
+    position: relative;
+    top:4px;
+    left: 100px;
+    background-color: white;
+    color:black;
+    width:100px;
+    padding:4px;
+   
+}
