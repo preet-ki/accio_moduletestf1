@@ -85,7 +85,7 @@ nav ul li a{
 @media (min-width:769px) and (max-width: 1024px){
     nav ul{
       position:relative;
-        top:170px;
+        top:169px;
        float: right;
        display: block;
         
